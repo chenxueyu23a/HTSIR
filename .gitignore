@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editors & OS
+*.swp
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment & secrets
+*.env
+.env
+
+# Datasets, caches, and experiment outputs
+data/
+outputs/
+chunk_choose/
+demo/qasper-*.json
+*.pkl
+*.pt
+*.tsv
+*.log
+*.db
+gpt*.txt
+local/
+local_*
+build/
+dist/
+*.egg-info/
+finetuning_ckpts/
+* copy*
